@@ -1,0 +1,25 @@
+# Core speech recognition and TTS
+speechrecognition==3.10.0
+pyttsx3==2.90
+
+# Language detection and translation
+langdetect==1.0.9
+deep-translator==1.11.4
+gtts==2.4.0
+
+# Audio processing and playback
+pygame==2.5.2
+
+# HTTP requests for API calls
+requests==2.31.0
+
+# GUI framework (usually included with Python)
+# tkinter is built-in with Python standard library
+
+# Additional audio dependencies (platform-specific)
+# For Windows: these are usually included
+# For macOS: may need portaudio (install via: brew install portaudio)
+# For Linux: may need ALSA headers (install via: sudo apt-get install python3-dev libasound2-dev)
+
+# Optional: for better audio handling on some systems
+# pyaudio==0.2.11  # Uncomment if you have issues with microphone access
